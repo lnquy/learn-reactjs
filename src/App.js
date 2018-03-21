@@ -15,8 +15,8 @@ class App extends Component {
   switchNameHandler = (id, name) => {
     this.setState({
       persons: [
-        {name: name, age: 45},
-        {name: "agent K", age: 33, children: "I have no name"}
+        {id: 0, name: name, age: 45},
+        {id: 1, name: "agent K", age: 33, children: "I have no name"}
       ]
     })
   }
